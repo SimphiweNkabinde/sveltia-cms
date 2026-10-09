@@ -23,4 +23,4 @@ collections:
     fields:
       - {label: Title, name: title}
       - {label: Description, name: description, widget: richtext }
-      - {label: Content, name: content, widget: code, allow_language_selection: true, default_language: html}
+      - {label: Content (HTML), name: content, widget: code, allow_language_selection: false, default_language: html}
