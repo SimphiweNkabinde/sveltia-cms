@@ -16,3 +16,11 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Date, name: date, widget: datetime, type: date }
       - { label: Body, name: body, widget: richtext }
+  - name: Pages
+    label: Pages
+    label_singular: Page
+    folder: /content/pages
+    fields:
+      - {label: Title, name: title}
+      - {label: Description, name: description, widget: richtext }
+      - {label: Content, name: content, widget: code, allow_language_selection: true, default_language: html}
